@@ -1,11 +1,11 @@
 
 body {
-    width: 1000px
+    width: 1000px;
 }
 
 header {
 	height: 84px;
-	background-color: darkblue;
+	background-color: gray;
     border-bottom: 2px solid white;
 }
 
@@ -13,12 +13,25 @@ h1{
     background-color: green;
     margin-left: 175px;
     float: left;
+    margin-top: 26px;
+    padding: 10px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    border: -10px;
 }
 
 nav {
-    background-color: cadetblue;
+    /** background-color: cadetblue; **/
     float: right;
-    margin-right: 175px
+    margin-right: 175px;
+    margin-top: 46px;
+}
+
+li {
+    display: inline;
 }
 
 #mypic {
@@ -26,23 +39,28 @@ nav {
     height: 167px;
     float: left;
     clear: both;
+    padding: 10px;
 }
 
 .main {
     background-color: aquamarine;
     width: 650px;
-    height: 480px;
+    /** height: 480px; **/
     margin-left: 175px;
-    clear: both;
+}
+
+p {
+    padding: 10px;
 }
 
 .about {
     background-color: blue;
-    
 }
 
 footer {
     background-color: lightgreen;
     text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
