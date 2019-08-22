@@ -1,0 +1,16 @@
+h1{
+    background-color: green;
+}
+
+nav {
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: lightgreen
+}
+
+#mypic {
+    width: 152px;
+    height: 187px;
+}
