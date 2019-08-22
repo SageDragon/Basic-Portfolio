@@ -1,16 +1,35 @@
 h1{
     background-color: green;
+    float: left;
 }
 
 nav {
     background-color: cadetblue;
-}
-
-footer {
-    background-color: lightgreen
+    float: right;
 }
 
 #mypic {
-    width: 152px;
-    height: 187px;
+    width: 132px;
+    height: 167px;
+    float: left;
+    clear: both;
 }
+
+.main {
+    background-color: aquamarine;
+    width: 650px;
+    height: 480px;
+    margin-left: 136px;
+    clear: both;
+}
+
+.about {
+    background-color: blue;
+    
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+}
+
