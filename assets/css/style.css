@@ -1,11 +1,24 @@
+
+body {
+    width: 1000px
+}
+
+header {
+	height: 84px;
+	background-color: darkblue;
+    border-bottom: 2px solid white;
+}
+
 h1{
     background-color: green;
+    margin-left: 175px;
     float: left;
 }
 
 nav {
     background-color: cadetblue;
     float: right;
+    margin-right: 175px
 }
 
 #mypic {
@@ -19,7 +32,7 @@ nav {
     background-color: aquamarine;
     width: 650px;
     height: 480px;
-    margin-left: 136px;
+    margin-left: 175px;
     clear: both;
 }
 
