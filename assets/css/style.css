@@ -1,17 +1,26 @@
 
 body {
-    width: 1000px;
+    width: 960px;
+    background-image: url(/assets/images/qbkls.png);
+    margin: 0 auto;
 }
 
 header {
 	height: 84px;
-	background-color: gray;
-    border-bottom: 2px solid white;
+	background-color: #ffffff;
+    border-bottom: 2px solid gray;
+}
+
+hr {
+    border-bottom: 2px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1{
-    background-color: green;
-    margin-left: 175px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 155px;
     float: left;
     margin-top: 26px;
     padding: 10px;
@@ -21,13 +30,16 @@ h2 {
     padding-top: 20px;
     padding-left: 10px;
     border: -10px;
+    color: #4aaaa5;
 }
 
 nav {
     /** background-color: cadetblue; **/
     float: right;
-    margin-right: 175px;
+    margin-right: 155px;
     margin-top: 46px;
+    text-align: center;
+    padding-bottom: 2px color grey;
 }
 
 li {
@@ -43,14 +55,15 @@ li {
 }
 
 .main {
-    background-color: aquamarine;
+    background-color: #ffffff;
     width: 650px;
     /** height: 480px; **/
-    margin-left: 175px;
+    margin-left: 155px;
 }
 
 p {
     padding: 10px;
+    color: #777777;
 }
 
 .about {
@@ -58,9 +71,10 @@ p {
 }
 
 footer {
-    background-color: lightgreen;
+    background-color: #666666;
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-top: 10px solid #4aaaa5;
 }
 
