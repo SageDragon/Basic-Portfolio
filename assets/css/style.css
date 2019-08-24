@@ -61,7 +61,6 @@ li {
 .main {
     background-color: #ffffff;
     width: 650px;
-    /** height: 480px; **/
     margin-left: 155px;
 }
 
@@ -85,5 +84,17 @@ footer {
 
 #copyr {
     color: #ffffff;
+}
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    width: 650px;  
+}
+
+.contact {
+    width: 650px;
+    padding: 10px;
+    color: #666666;
+    /* margin-left: 155px; */
 }
 
