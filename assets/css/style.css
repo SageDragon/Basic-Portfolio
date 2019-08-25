@@ -1,8 +1,9 @@
 
 body {
     width: 960px;
-    background-image: url(/assets/images/qbkls.JPEG);
+    /* background-image: url(/assets/images/qbkls.JPEG); */
     margin: 0 auto;
+    background-color: silver;
 }
 
 header {
