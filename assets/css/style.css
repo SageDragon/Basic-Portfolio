@@ -98,3 +98,18 @@ form {
     /* margin-left: 155px; */
 }
 
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+
+.imgtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
