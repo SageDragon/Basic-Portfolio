@@ -3,7 +3,7 @@ body {
     width: 960px;
     /* background-image: url(/assets/images/qbkls.JPEG); */
     margin: 0 auto;
-    background-color: silver;
+    /* background-color: silver; */
 }
 
 header {
@@ -113,4 +113,8 @@ form {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  html {
+    background-color: silver;
+}
 
